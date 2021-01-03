@@ -1,0 +1,41 @@
+.main-menu {
+  width: 1110px;
+  height: 46px;
+  padding: 27px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-menu__office {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-menu_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 412px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+.main-menu_link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main-menu_holder {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  padding-left: 30px;
+}

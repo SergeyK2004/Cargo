@@ -1,0 +1,42 @@
+.paragraph {
+  max-width: 445px;
+}
+.paragraph__line {
+  width: 90px;
+  height: 6px;
+  background-color: #c8a35f;
+}
+
+.paragraph__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.paragraph__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+
+.paragraph__button {
+  width: 220px;
+  height: 55px;
+  border: none;
+  background-color: #c8a35f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 50px;
+}

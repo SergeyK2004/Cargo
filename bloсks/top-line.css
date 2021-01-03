@@ -1,0 +1,29 @@
+.top-line {
+  background-color: #c8a35f;
+  min-height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.top-line_lang {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.top-line_lang-el {
+  padding-right: 10px;
+}
+.top-line_lang-el:last-child {
+  padding-right: 0;
+}
+.top-line_link {
+  color: #ffffff;
+  text-decoration: none;
+}
