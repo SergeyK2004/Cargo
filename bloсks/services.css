@@ -35,9 +35,40 @@
   margin-top: 120px;
   margin-bottom: 129px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .services__img {
+  align-self: center;
+}
+
+.services__arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #c8a35f;
+}
+.services__arrows_text_back {
+  margin: 0 0 0 30px;
+}
+.services__arrows_text_next {
+  margin: 0 30px 0 0;
+}
+
+.services__arrows_direction_next {
+  display: flex;
+}
+
+.services__arrows_direction_back {
+  display: flex;
 }
