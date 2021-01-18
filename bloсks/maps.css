@@ -1,0 +1,11 @@
+.maps {
+  min-height: 450px;
+  display: flex;
+  position: relative;
+}
+
+.maps__map {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}

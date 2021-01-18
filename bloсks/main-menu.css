@@ -13,7 +13,7 @@
   flex-direction: row;
 }
 
-.main-menu_links {
+.main-menu__links {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -25,11 +25,14 @@
   letter-spacing: 0.05em;
 }
 
-.main-menu_link {
+.main-menu__link {
   color: #ffffff;
   text-decoration: none;
 }
-.main-menu_holder {
+.main-menu__link:hover {
+  font-weight: bold;
+}
+.main-menu__holder {
   color: #ffffff;
   text-decoration: none;
   display: flex;

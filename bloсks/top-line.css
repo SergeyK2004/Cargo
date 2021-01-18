@@ -9,7 +9,7 @@
   line-height: 14px;
 }
 
-.top-line_lang {
+.top-line__lang {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -17,13 +17,17 @@
   padding: 0;
 }
 
-.top-line_lang-el {
+.top-line__lang-el {
   padding-right: 10px;
+  opacity: 0.5;
 }
-.top-line_lang-el:last-child {
+.top-line__lang-el_activ {
+  opacity: 1;
+}
+.top-line__lang-el:last-child {
   padding-right: 0;
 }
-.top-line_link {
+.top-line__link {
   color: #ffffff;
   text-decoration: none;
 }

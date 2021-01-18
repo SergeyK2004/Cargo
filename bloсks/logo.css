@@ -8,3 +8,20 @@
   border-right: #ffffff solid;
   padding-right: 30px;
 }
+
+.logo_pos_footer {
+  border-right: none;
+}
+
+.logo__img {
+  animation: logoRotate 4s linear 2s infinite normal;
+}
+
+@keyframes logoRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

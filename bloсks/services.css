@@ -68,7 +68,25 @@
 .services__arrows_direction_next {
   display: flex;
 }
+.services__arrows_direction_next:hover {
+  cursor: pointer;
+}
 
 .services__arrows_direction_back {
   display: flex;
+}
+.services__arrows_direction_back:hover {
+  cursor: pointer;
+}
+.services__arrows_arrow_next {
+  transition: transform 1s ease-in-out;
+}
+.services__arrows_direction_next:hover .services__arrows_arrow_next {
+  transform: translateX(20px);
+}
+.services__arrows_arrow_back {
+  transition: transform 1s ease-in-out;
+}
+.services__arrows_direction_back:hover .services__arrows_arrow_back {
+  transform: translateX(-20px);
 }

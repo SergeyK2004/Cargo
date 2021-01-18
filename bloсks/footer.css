@@ -1,0 +1,48 @@
+.footer {
+  background-color: #c8a35f;
+}
+
+.footer__line {
+  min-height: 161px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__contact {
+  flex-basis: 291px;
+}
+.footer__adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f2f2f2;
+  opacity: 0.8;
+}
+.footer__email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2f343a;
+  text-decoration-line: none;
+}
+.footer__phones {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f2f2f2;
+  flex-basis: 291px;
+}
+.footer__copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #2f343a;
+  flex-basis: 184px;
+  display: block;
+}

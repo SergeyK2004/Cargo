@@ -24,6 +24,10 @@
   line-height: 28px;
   margin-top: 30px;
 }
+.paragraph__text_section_about {
+  font-size: 16px;
+  line-height: 23px;
+}
 
 .paragraph__button {
   width: 220px;
@@ -39,4 +43,7 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 50px;
+}
+.paragraph__button:hover {
+  cursor: pointer;
 }
