@@ -25,3 +25,8 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 640px) {
+  .logo__img  {
+    margin-right: 10px;
+  }

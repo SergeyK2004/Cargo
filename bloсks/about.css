@@ -21,7 +21,8 @@
 
 .about__back_side_center {
   background-color: #393f47;
-  width: 410px;
+  width: 35%;
+  max-width: 410px;
 }
 
 .about__back_side_left {
@@ -97,4 +98,17 @@
   padding: 0;
 
   color: #000000;
+}
+
+@media (max-width: 640px) {
+  .about__front {
+    flex-direction: column;
+  }
+  .about__blocks {
+    margin-left: 0;
+  }
+  .about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }

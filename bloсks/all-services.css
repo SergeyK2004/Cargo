@@ -64,3 +64,9 @@
 .all-services__item:hover .all-services__flight {
   background: url("../images/airplane-flight-black.png") center no-repeat;
 }
+
+@media (max-width: 640px) {
+  .all-services {
+    margin-top: 50px;
+  }
+}

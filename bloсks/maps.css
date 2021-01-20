@@ -9,3 +9,9 @@
   width: 100%;
   min-height: 100%;
 }
+
+@media (max-width: 860px) {
+  .maps {
+    display: none;
+  }
+}
