@@ -26,7 +26,8 @@
   }
 }
 
-@media (max-width: 640px) {
-  .logo__img  {
+@media screen and (max-width: 640px) {
+  .logo__img {
     margin-right: 10px;
   }
+}

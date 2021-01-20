@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
     <title>Грузоперевозки</title>
   </head>
 
@@ -31,11 +30,11 @@
         <section class="main-menu root__content">
           <div class="main-menu__office">
             <div class="logo">
-              <img class="logo__img" src="./images/logo.png" />
-              <img src="images/logo-text.png" />
+              <img class="logo__img" src="<%=require("./images/logo.png")%>" />
+              <img src="<%=require("./images/logo-text.png")%>" />
             </div>
             <a href="#" class="main-menu__holder"
-              ><img src="images/placeholder.png" alt="Карта" />Наши офисы</a
+              ><img src="<%=require("./images/placeholder.png")%>" alt="Карта" />Наши офисы</a
             >
           </div>
           <nav class="main-menu__links">
@@ -54,7 +53,7 @@
             </p>
           </div>
           <img
-            src="./images/mouse.png"
+            src="<%=require("./images/mouse.png")%>"
             alt="Мышка"
             class="first-screen__mouse"
           />
@@ -77,21 +76,21 @@
                 подробнее
               </button>
             </div>
-            <img src="./images/services.png" alt="Фура" class="services__img" />
+            <img src="<%=require("./images/services.png")%>" alt="Фура" class="services__img" />
             <div class="services__arrows">
               <div class="services__arrows_direction_next">
                 <p class="services__arrows_text_next">СЛЕД</p>
                 <img
                   class="services__arrows_arrow_next"
                   alt="Вперед"
-                  src="./images/Arrow-next.png"
+                  src="<%=require("./images/Arrow-next.png")%>"
                 />
               </div>
               <div class="services__arrows_direction_back">
                 <img
                   class="services__arrows_arrow_back"
                   alt="Вперед"
-                  src="./images/Arrow-back.png"
+                  src="<%=require("./images/Arrow-back.png")%>"
                 />
                 <p class="services__arrows_text_back">НАЗАД</p>
               </div>
@@ -180,14 +179,14 @@
                   <img
                     class="about__img"
                     alt="Авто"
-                    src="./images/About 2.2.png"
+                    src="<%=require("./images/About 2.2.png")%>"
                   />
                 </li>
                 <li class="about__item">
                   <img
                     class="about__img"
                     alt="Авто"
-                    src="./images/About 2.2.png"
+                    src="<%=require("./images/About 2.2.png")%>"
                   />
                 </li>
                 <li class="about__item">
@@ -219,8 +218,8 @@
       <footer class="footer root__section">
         <div class="footer__line root__content">
           <div class="logo logo_pos_footer">
-            <img src="./images/logo-black.png" />
-            <img src="images/logo-text.png" />
+            <img src="<%=require("./images/logo-black.png")%>" />
+            <img src="<%=require("./images/logo-text.png")%>" />
           </div>
           <div class="footer__contact">
             <p class="footer__adress">
